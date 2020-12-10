@@ -6,22 +6,15 @@ var count = 0;
 function carrousel(){
     const slidingStart = setInterval(() => {
         count++;
-        sliding();
+        photoWrapper.style.transform = `translateX(${-photoSize*count}px)`;
+        photoWrapper.style.transition = 'transform 1s';
         if(count==5){
             photoWrapper.style.transition = null;
             photoWrapper.style.transform = `translateX(${-photoSize}px)`;
             count =1;
-            clearInterval(slidingStart);
-            sliding();
-            carrousel();
         }
     }, 2000);
 
-    const sliding = () => {
-        photoWrapper.style.transform = `translateX(${-photoSize*count}px)`;
-        photoWrapper.style.transition = 'transform 1s';
-    }
-    slidingStart;
 }
 carrousel();
 
