@@ -1,17 +1,20 @@
 .container {
-    width: 200px;
-    margin: auto;
+    width: 400px;
     border: 2px solid black;
-    // overflow: hidden;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .photo-wrapper {
     display: flex;
     justify-content: center;
-    width: 1000px;
+    width: 2000px;
 }
 
 .photo-wrapper img {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
 }

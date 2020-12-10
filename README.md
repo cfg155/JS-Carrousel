@@ -1,2 +1,2 @@
 **LOG Carrousel V1.0**
-ini udah pasang foto dan tinggal mainin logika jalaninnya aja paling untuk steps selanjutnya pasangin setinterval
+Fungsi masih basic dan simple hanya mengandalkan waktu untuk bergerak atau sliding
