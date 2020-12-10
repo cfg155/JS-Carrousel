@@ -1,0 +1,17 @@
+.container {
+    width: 200px;
+    margin: auto;
+    border: 2px solid black;
+    // overflow: hidden;
+}
+
+.photo-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+}
+
+.photo-wrapper img {
+    width: 200px;
+    height: 200px;
+}

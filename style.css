@@ -1,0 +1,21 @@
+.container {
+  width: 200px;
+  margin: auto;
+  border: 2px solid black;
+}
+
+.photo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 1000px;
+}
+
+.photo-wrapper img {
+  width: 200px;
+  height: 200px;
+}
+/*# sourceMappingURL=style.css.map */
